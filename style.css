@@ -1,0 +1,124 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ html,body{
+width: 100%;
+height: 100%;
+background-image: url(https://t3.ftcdn.net/jpg/04/27/26/88/360_F_427268884_ujRRSidmlzvvyb7J4ML5biHfsV7u2kgm.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.containor{
+    height: 100vh;
+    
+}
+
+.containor .content {
+    /* background-color: blue; */
+    /* background-image: url(https://t3.ftcdn.net/jpg/04/27/26/88/360_F_427268884_ujRRSidmlzvvyb7J4ML5biHfsV7u2kgm.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+ .containor .content .nav{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 5%;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.content .nav h1{
+    font-size: 30px;
+}
+.content .nav h2{
+    font-size: 30px;
+    border: 2px solid black;
+}
+.content .nav h3{
+    font-size: 30px;
+}
+.content .nav h4{
+    font-size: 30px;
+}
+
+.content .nav h1:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
+.content .nav h3:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
+.content .nav h4:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+
+.main{
+    overflow: hidden;
+    /* background-color: yellow; */
+
+}
+
+.main .left{
+    /* background-color: red; */
+    height: 100vh;
+    width: 50vw;
+
+}
+
+
+
+.main .left img{
+    height: 40vh;
+    margin-top: 30%;
+    margin-left: 20%;
+}
+
+.main .right {
+    /* background-color: burlywood; */
+    height: 100vh;
+    margin-top: 3.6%;
+    width: 50vw;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.main .right h1{
+    margin-top: 6%;
+    top: 0;
+    left: 0;
+    
+    justify-content: center
+}
+
+.main .right form>input{
+    /* display: flex; */
+    margin-top: 60%;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.main .right form >button{
+    background-color: gray;
+    padding: 3px;
+    margin: 10%;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+
+.right form>button:hover{
+    cursor: pointer;
+    background-color: darkgray;
+    text-decoration-color: black;
+}
